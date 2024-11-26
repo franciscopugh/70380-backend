@@ -4,8 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js"
   },
+  "engines": { "node": "16.x" },
   "keywords": [],
   "author": "",
   "license": "ISC",
