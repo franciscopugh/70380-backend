@@ -16,7 +16,7 @@ const productos = JSON.parse(productosData); //Para no consultar todo el tiempo 
 productRouter.get('/', (req,res) => {
     const {limit} = req.query
     const products = productos.slice(0, limit) //Devuelve una copia de un array (inicio, fin)
-    res.status(200).send(products)
+    res.status(200).render('templates/home', {productos: products, js: 'productos.js', css: 'productos.css'})
 })
 
 // Consultar producto via ID

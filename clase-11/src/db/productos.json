@@ -1,1 +1,1 @@
-[{"id":"f4c62e2fffe6b854668a","title":"Gaseosa","description":"Rica","code":"Be123Ga","category":"Bebidas","price":4500,"stock":13}]
+[{"id":"f4c62e2fffe6b854668a","title":"Gaseosa","description":"Rica","code":"Be123Ga","category":"Bebidas","price":4500,"stock":13,"status":true},{"id":"dfb15758f0b4d3f91f5b","title":"Chocolate","description":"Rico","code":"Du123Ch","category":"Golosinas","price":5500,"stock":10,"status":false,"thumbnails":[]}]
